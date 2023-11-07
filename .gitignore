@@ -1,5 +1,5 @@
-manage-landing-page/node_modules
-manage-landing-page/package.json
-manage-landing-page/package-lock.json
-manage-landing-page/style-guide.md
-manage-landing-page/tailwind.config.js
+loopstudios-landing-page/node_modules/
+loopstudios-landing-page/.editorconfig
+loopstudios-landing-page/design/
+loopstudios-landing-page/style-guide.md
+loopstudios-landing-page/package-lock.json
