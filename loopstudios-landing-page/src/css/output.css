@@ -578,7 +578,6 @@ video {
   position: absolute;
   left: 1rem;
   bottom: 1rem;
-  z-index: 10;
   width: -moz-min-content;
   width: min-content;
   font-size: 1.5rem;
@@ -622,12 +621,24 @@ video {
   top: 0px;
 }
 
+.right-0 {
+  right: 0px;
+}
+
 .z-30 {
   z-index: 30;
 }
 
 .z-50 {
   z-index: 50;
+}
+
+.-z-10 {
+  z-index: -10;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .mx-auto {
@@ -681,6 +692,10 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-\[100\%\] {
+  width: 100%;
 }
 
 .translate-x-0 {
@@ -773,6 +788,18 @@ video {
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
+.bg-\[rgba\(0\2c 0\2c 0\2c \.5\)\] {
+  background-color: rgba(0,0,0,.5);
+}
+
+.bg-\[rgba\(0\2c 0\2c 0\2c \.9\)\] {
+  background-color: rgba(0,0,0,.9);
+}
+
+.bg-\[rgba\(0\2c 0\2c 0\2c \.7\)\] {
+  background-color: rgba(0,0,0,.7);
+}
+
 .bg-hero-mobile {
   background-image: url('../images/mobile/image-hero.jpg');
 }
@@ -798,6 +825,10 @@ video {
   padding: 1.75rem;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -818,8 +849,26 @@ video {
   padding-bottom: 5rem;
 }
 
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .pt-12 {
   padding-top: 3rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .text-center {
@@ -880,6 +929,10 @@ video {
 
   .md\:right-0 {
     right: 0px;
+  }
+
+  .md\:left-0 {
+    left: 0px;
   }
 
   .md\:col-span-2 {
@@ -1011,6 +1064,10 @@ video {
     background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
   }
 
+  .md\:bg-transparent {
+    background-color: transparent;
+  }
+
   .md\:bg-hero-desktop {
     background-image: url('../images/desktop/image-hero.jpg');
   }
@@ -1018,6 +1075,10 @@ video {
   .md\:object-cover {
     -o-object-fit: cover;
        object-fit: cover;
+  }
+
+  .md\:p-8 {
+    padding: 2rem;
   }
 
   .md\:px-0 {
@@ -1028,6 +1089,10 @@ video {
   .md\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+  }
+
+  .md\:pt-12 {
+    padding-top: 3rem;
   }
 
   .md\:text-start {

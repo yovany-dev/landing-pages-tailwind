@@ -16,7 +16,7 @@
   }
 
   .card__title {
-    @apply w-min absolute z-10 left-4 md:left-6 bottom-4 md:bottom-6 text-primary-white text-2xl md:text-4xl uppercase;
+    @apply w-min absolute left-4 md:left-6 bottom-4 md:bottom-6 text-primary-white text-2xl md:text-4xl uppercase;
   }
 
   .hover {
