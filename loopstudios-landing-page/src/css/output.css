@@ -774,7 +774,7 @@ video {
 }
 
 .bg-hero-mobile {
-  background-image: url('/src/images/mobile/image-hero.jpg');
+  background-image: url('../images/mobile/image-hero.jpg');
 }
 
 .bg-cover {
@@ -871,11 +871,6 @@ video {
   transition-property: transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
-}
-
-.hover\:text-dark-gray:hover {
-  --tw-text-opacity: 1;
-  color: hsl(0 0% 55% / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
@@ -1017,7 +1012,7 @@ video {
   }
 
   .md\:bg-hero-desktop {
-    background-image: url('/src/images/desktop/image-hero.jpg');
+    background-image: url('../images/desktop/image-hero.jpg');
   }
 
   .md\:object-cover {
