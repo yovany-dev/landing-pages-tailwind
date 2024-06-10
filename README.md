@@ -6,5 +6,5 @@ This repository contains landing pages created with Tailwind CSS with [Frontend 
 
 See some of my landing pages. 🔥🔥🔥
 
-- [Manager Landing Page](https://yovani-morales.github.io/landing-pages-tailwind/manage-landing-page/)
-- [Loopstudios Landing Page](https://yovani-morales.github.io/landing-pages-tailwind/loopstudios-landing-page/src/)
+- [Manager Landing Page](https://yovany-dev.github.io/landing-pages-tailwind/manage-landing-page/)
+- [Loopstudios Landing Page](https://yovany-dev.github.io/landing-pages-tailwind/loopstudios-landing-page/src/)
